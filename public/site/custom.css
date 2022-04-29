@@ -1,0 +1,58 @@
+/* CUSTOMIZAÇÕES DE CSS DOS COMPONENTES */
+/* BARRA DE NAVEGAÇÃO (NAVBAR) */
+
+/* FONTE 'NUNITO' COMO PADRÃO EM TODO PROJETO */
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+    background-color: #002a40 !important;
+}
+
+.nav-link {
+    color: #bfc1bf !important;
+}
+
+.container-fluid img {
+    width: 250px;
+}
+
+.navbar-toggler {
+    color: #bfc1bf !important;
+    background-color: #bfc1bf !important;
+    border-radius: 5px !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #bfc1bf !important;
+    border-radius: 5px !important;
+}
+
+/* BARRA DE RODAPÉ (FOOTER) */
+footer {
+    background-color: #002a40 !important;
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
+.text-footer{
+    color: #bfc1bf !important;
+}
+
+/* BOTÕES DA TABELA CLIENTES PRINCIPAL (th)*/
+.botao_tabela_cliente{
+    padding: 4 0 0 0 !important;
+    
+}
+#mostrar{
+    display: none;
+  }
+  
+  #passar_mouse:hover #mostrar{
+      color: blue;
+    display:block;
+    }

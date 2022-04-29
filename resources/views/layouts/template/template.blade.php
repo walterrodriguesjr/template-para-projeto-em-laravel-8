@@ -12,8 +12,11 @@
     <link rel="stylesheet" href="{{asset('site/custom.css')}}">
 </head>
 <body>
+    @include('layouts.components.navbar')
 
     @yield('content')
+
+    @include('layouts.components.footer')
     
     <script src="{{asset('site/jquery.js')}}"></script>
     <script src="{{asset('site/bootstrap.js')}}"></script>
